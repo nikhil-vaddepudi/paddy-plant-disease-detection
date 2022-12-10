@@ -1,7 +1,7 @@
 # paddy-plant-disease-detection using deep learning
 
 ## Image Acquisition :-
-A total of 10407 training images and 3469 testing images were collected from different agricultural websites and paddy fields [5].   These images are captured in 480×640 pixels. </br>
+A total of 10407 training images and 3469 testing images were collected from different agricultural websites and paddy fields.   These images are captured in 480×640 pixels. </br>
 These are from the Kaggle  link:https://www.kaggle.com/competitions/paddy-disease-classification/data
 
 
@@ -51,3 +51,15 @@ These are from the Kaggle  link:https://www.kaggle.com/competitions/paddy-diseas
     <td>1764</td>
   </tr>
 </table>
+
+## Image Segmentation
+It employs to reduce image’s complexity and simplify it.
+
+A K-means clustering technique has been engaged in this. K means clustering partitions or makes the clusters of the data which is nearest to the centroid. Centroid is arithmetic mean of the all cluster points. The new centroid is estimated for each of the partition or cluster, after allocating the nearest centroid. The position and number of the centroid is changed step by step till k-clusters are derived and no more changes are possible.
+
+The crucial part of this technique is selecting the K values. The values will be taken by using trial and error method.
+
+## Classification of Images
+
+We didi it by using CNN, VGG-19, Inception v3 and compared with each other
+
