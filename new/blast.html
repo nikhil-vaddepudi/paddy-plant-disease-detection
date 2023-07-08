@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blast</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+       <!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+      <i class="fa fa-remove"></i>
+    </a>
+    <a href="../templates/index.html" class="w3-bar-item w3-button">Home</a>
+    <a href="#" class="w3-bar-item w3-button">News</a>
+    <a href="#" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">About</a>
+    <a href="#" class="w3-bar-item w3-button">Diseases</a>
+  </nav>
+
+  <!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-theme-d2 w3-left-align">
+     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+     <a href="../templates/index.html" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
+     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>
+     <div class="w3-dropdown-hover w3-hide-small">
+        <button class="w3-button" title="Notifications">Diseases <i class="fa fa-caret-down"></i></button>     
+        <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+          <a href="../new/leafblight.html" class="w3-bar-item w3-button">Bacterial leaf blight</a>
+          <a href="../new/leafstreak.html" class="w3-bar-item w3-button">Bacterial leaf streak</a>
+          <a href="../new/panicle.html" class="w3-bar-item w3-button">Bacterial panicle blight</a>
+          <a href="../new/blast.html" class="w3-bar-item w3-button">Blast</a>
+          <a href="../new/brown.html" class="w3-bar-item w3-button">Brown spot</a>
+          <a href="../new/DeadHeart.html" class="w3-bar-item w3-button">Dead heart</a>
+          <a href="../new/downy.html" class="w3-bar-item w3-button">Downy mildew</a>
+          <a href="../new/hispa.html" class="w3-bar-item w3-button">Hispa</a>
+          <a href="../new/tungro.html" class="w3-bar-item w3-button">Tungro</a>
+        </div>
+      </div>
+     
+     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Guide</a>
+     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+       
+     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-white">Login</a>
+     <div id="google_translate_element"></div>
+
+     <script type="text/javascript">
+     function googleTranslateElementInit() {
+       new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+     }
+     </script>
+     
+     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+        <a href="#" class="w3-bar-item w3-button">News</a>
+        <a href="#" class="w3-bar-item w3-button">Diseases</a>
+        <a href="#" class="w3-bar-item w3-button">Guide</a>
+        <a href="#" class="w3-bar-item w3-button">Contact</a>
+        <a href="#" class="w3-bar-item w3-button">Search</a>
+      </div>
+    </div>
+
+    <div class="textplacing">
+        <h1 style="text-align: center;"> <strong>Disease: Blast of rice</strong>   </h1>
+        <h3 style="font-weight: bold;">Common Name:</h3>
+    <p>Blast of rice is the earliest known plant disease; also known as Rotten neck or Rice fever.</p>
+    
+    <h3 style="font-weight: bold;">Scientific Name:</h3>
+    <p> <i>Pyricularia oryzae</i> </p>
+    
+    <h3 >Distribution</h3>
+    <p>Rice Blastfound all over the world where rice grows.</p>
+    
+    <h3 >Hosts</h3>
+    <p>Rice <i>(Oryza sativa)</i>  and maize are the  known hosts of Blast disease.</p>
+
+    <h3 style="font-weight: bold;">Symptoms</h3>
+<p><ul>
+  <li>All aboveground parts of the rice plant (leaves, leaf collar, culm, culm nodes, neck, and panicle) are attacked by the fungus</li>
+  <li>initial symptoms are white to gray-green lesions or spots with brown borders</li>
+  <li>Small specks originate on leaves - subsequently enlarge into spindle shaped spots(0.5 to 1.5cm length, 0.3 to 0.5cm width) with ashy center.  </li>
+  <li>older lesions elliptical or spindle-shaped and whitish to gray with necrotic borders Several spots coalesce to  form big irregular patches.</li>
+  <li>nodal infection causes the culm to break at the infected node</li>
+  <li>Internodal infection also occurs at the base of the plant which causes white panicles similar to that induced by yellow stem borer or water deficit</li>
+  <li>Lesions on the neck are grayish brown and causes the girdling of the neck and the panicle to fall over</li>
+  <li>If infection of the neck occurs before milk stage, no grain is formed, but if infection occurs later, grains of poor quality are formed</li>
+  <li>Lesions on the branches of the panicles and on the spikelet pedicels are brown to dark brown</li>
+  <li>The size and shape of the spots vary on different rice varieties.</li>
+</ul>
+</p>
+ <h5>Leaf Blast</h5>
+ <ul>
+    <li>Severe cases of infection - entire crop give a blasted or burnt appearance- hence the name "BLAST"</li>
+<li>Severe cases - lodging of crop (after ear emergence)</li> 
+</ul>
+ 
+<h5>Neck Blast</h5>
+<ul>
+    <li>Neck region of panicle develops a black color and shrivels completely / partially grain set inhibited, panicle breaks at the neck and hangs</li>
+</ul>
+
+<h5>Node Blast</h5>
+<ul>
+    <li>Nodes become black and break up </li>
+</ul>
+
+<h3 >Identification of pathogen</h3>
+<ul>
+  <li>This disease is caused by a fungus named Pyricularia orizae, which overwinters in rice seeds and infected rice stubble.</li>
+<li>The fungus reproductive structures, spores, can spread from these two sources to rice plants during the next growing season and initiate new infections</li>
+<li> Spores from these new infections can spread by wind to other rice plants over great distances.</li>
+<li>The conidiophores of the pathogen are produced in clusters from each stoma. They are rarely solitary with 2-4 septa. The basal area of the conidiophores is swollen and tapers toward the lighter apex..</li>
+<li>The conidia of the fungus measure 20-22 x 10-12 µm. The conidia are 2-septate, translucent, and slightly darkened. They are obclavate and tapering at the apex. They are truncate or extended into a short tooth at the base.</li>
+<li>The perfect stage is rarely found in the field.</li>
+</ul>
+
+<h5 >Factors favouring disease development</h5>
+<p><ul>
+  <li>presence of the blast spores in the air throughout the year</li>
+  <li>upland rice environment and high elevation in the tropics</li>
+  <li>cloudy skies, frequent rain, and drizzles</li>
+  <li>high nitrogen levels like ammonium sulfate</li>
+  <li>high relative humidity (90% and higher) and wet leaves</li>
+  <li>temperature from 25-28°C</li>
+</ul>
+</p>
+
+<h5>Occurance</h5>
+<ul>
+    <li>Reported from 80 rice-growing countries. First recorded in India during 1918.</li>
+    <li>Expected grain loss : 70 to 80%</li>
+</ul>
+
+
+<h3>Management Strategies</h3>
+<h5>Cultural method</h5>
+<ul>
+  <li>Planting resistant varieties against the rice blast is the most practical and economical way of controlling rice blast.</li>
+  <li>Use of Tolerant varieties <strong> (CO 47, CO 50, ADT 36,ADT 37,ASD 16,ASD 20,ADT 39,ASD 19,TPS 3,White ponni,ADT 44,BPT 5204,CORH </strong>, Palghuna, Swarnamukhi, Swathi, Prabhat, IR - 64, , IR - 36, Jaya)</li>
+  <li> Avoid excess N - fertilizer application</li>
+  <li>Apply nitrogen in three split doses.</li>
+  <li>Remove weed hosts from bunds.</li>
+</ul>
+
+<h5>Preventive method</h5>
+<ul>
+  <li>Avoid dry nurseries.</li>
+  <li>Avoid late planting.</li>
+  <li>Burning of straw and stubbles after harvest</li>
+  <li>Avoid grasses and other weeds on bunds and inside.</li>
+  <li>Dry seed treatment with Pseudomonas fluorescens talc formulation @10g/kg of seed.</li>
+  <li>Stagnate water to a depth of 2.5cm over an area of 25m2 in the nursery. Sprinkle 2.5 kg of P. fluorescens (talc) and mix with stagnated water. Soak the root system of seedlings for 30 min and transplant.</li>
+  <li>Spray P. fluorescens talc formulation @ 0.5% from 45 days after transplanting at 10 day intervals, three times.</li>
+</ul>
+
+<h5>Chemical method</h5>
+<ul>
+  <li>Do not apply lower/higher doses of fungicides.</li>
+  <li>Spray before 11.00 AM/after 3.00 PM.</li>
+  <li>Avoid noon hours for spraying.</li>
+  <li>Seed treatment at 2.0 g/kg seed with Captan or Carbendazim or Thiram or Tricyclazole.</li>
+  <li>Systemic fungicides such as pyroquilon and tricyclazole are possible chemicals for controlling the disease.</li>
+  <li>Spraying of Tricyclazole at 1g/lit of water or Edifenphos at 1 ml/lit of water or Carbendazim at 1.0 gm/lit.</li>
+  <li>3 to 4 sprays each at nursery, tillering stage and panicle emergence stage may be required for complete control.</li>
+  <li> <strong>Nursery stage:</strong>  Light infection - Spray Carbendazim or Edifenphos @ 1.0 gm/lit.</li>
+  <li> <strong>Pre-Tillering to Mid-Tillering:</strong>  Light at 2 to 5 % disease severities - Apply Edifenphos or Carbendazim @ 1.0 gm/lit. Delay top dressing of N fertilizers when infection is seen.</li>
+  <li> <strong>Panicle initiation to booting:</strong>  At 2 to 5% leaf area damage- spray Edifenphos or Carbendazim or Tricyclazole @ 1.0 gm/lit.</li>
+  <li> <strong> Flowering and after:</strong> At 5 % leaf area damage or 1 to 2 % neck infection spray Edifenphos or Carbendazim or Tricyclazole @ 1 g /lit of water.</li>
+</ul>
+    </div>
+</body>
+</html>

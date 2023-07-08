@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dead Heart</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     <!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+      <i class="fa fa-remove"></i>
+    </a>
+    <a href="../templates/index.html" class="w3-bar-item w3-button">Home</a>
+    <a href="#" class="w3-bar-item w3-button">News</a>
+    <a href="#" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">About</a>
+    <a href="#" class="w3-bar-item w3-button">Diseases</a>
+  </nav>
+
+  <!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-theme-d2 w3-left-align">
+     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+     <a href="../templates/index.html" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
+     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>
+     <div class="w3-dropdown-hover w3-hide-small">
+        <button class="w3-button" title="Notifications">Diseases <i class="fa fa-caret-down"></i></button>     
+        <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+          <a href="../new/leafblight.html" class="w3-bar-item w3-button">Bacterial leaf blight</a>
+          <a href="../new/leafstreak.html" class="w3-bar-item w3-button">Bacterial leaf streak</a>
+          <a href="../new/panicle.html" class="w3-bar-item w3-button">Bacterial panicle blight</a>
+          <a href="../new/blast.html" class="w3-bar-item w3-button">Blast</a>
+          <a href="../new/brown.html" class="w3-bar-item w3-button">Brown spot</a>
+          <a href="../new/DeadHeart.html" class="w3-bar-item w3-button">Dead heart</a>
+          <a href="../new/downy.html" class="w3-bar-item w3-button">Downy mildew</a>
+          <a href="../new/hispa.html" class="w3-bar-item w3-button">Hispa</a>
+          <a href="../new/tungro.html" class="w3-bar-item w3-button">Tungro</a>
+        </div>
+      </div>
+     
+     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Guide</a>
+     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+       
+     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-white">Login</a>
+     <div id="google_translate_element"></div>
+
+     <script type="text/javascript">
+     function googleTranslateElementInit() {
+       new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+     }
+     </script>
+     
+     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+        <a href="#" class="w3-bar-item w3-button">News</a>
+        <a href="#" class="w3-bar-item w3-button">Diseases</a>
+        <a href="#" class="w3-bar-item w3-button">Guide</a>
+        <a href="#" class="w3-bar-item w3-button">Contact</a>
+        <a href="#" class="w3-bar-item w3-button">Search</a>
+      </div>
+    </div>
+
+    <div class="textplacing">
+      <h1 style="text-align: center;"> <strong>Disease: Dead Heart of Rice</strong>   </h1>
+      <!-- <h3 style="font-weight: bold;">Common Name:</h3>
+  <p>Brown spot of rice ; also known as sesame leaf spot or Helminthosporiose or fungal blight.</p> -->
+  
+  <h3 style="font-weight: bold;">Scientific Name:</h3>
+  <p> <i>Scirpophaga incertulas</i> </p>
+  
+  <!-- <h3 >Distribution</h3>
+  <p>Widespread. Asia, Africa, North, South and Central America, the Caribbean, Europe, Oceania. It is recorded from Australia, Fiji, French Polynesia, New Caledonia, Papua New Guinea, and Solomon Islands.</p> -->
+  
+  <h3 >Hosts</h3>
+  <p>Infected seeds, volunteer rice, infected rice debris, sugarcanes and several weeds </p>
+  <h3 style="font-weight: bold;">Symptoms</h3>
+  <ul>
+    <li>Presence of brown coloured egg mass near the leaf tip.</li>
+    <li>In vegetative stage larva enters the stem and feeds on the growing shoot and causes drying of the central shoot known as “dead heart”.</li>
+    <li>In grown up plant whole ear heads become dried and yield chaffy grains called as “white ear”.
+    </li>
+  </ul>
+  <h5>Nature of damage</h5>
+  <p>In the vegetative phase, the central shoot dies off turning yellow in colour (dead heart). In the ear bearing stage, the ear head appears completely chaffy and white in colour (white ear head). Both come out easily when pulled up and show indication of feeding injuries at the base.</p>
+<h3>Identification of pests</h3>
+<ul>
+  <li><strong>Eggs</strong> <br>Eggs are creamy white, flattened, oval and laid in a mass which is covered with buff coloured hairs. They are laid mostly near the tip of the leaves. Egg period is 5-8 days.</li>
+  <li><strong>Larva</strong> <br>Pale yellow with dark brown head having prothoracic shield. Larval period is 28 to 30 days.</li>
+  <li><strong>Papua</strong> <br>White silken cocoon. Pupation takes place inside the rice stem, straw or stubble. Pupal period is 8 to 10 days.</li>
+  <li><strong>Adult</strong> <br> <strong>Female moth:</strong> Has bright yellowish brown with a black spot at the centre of the fore wings and a tuft of yellow hairs at the anal region. <br> <strong>Male moth</strong>Smaller with pale yellow forewings without black spot.</li>
+  
+</ul>    
+
+<h3>Management Strategies</h3>
+<h5>Cultural methods</h5>
+<ul>
+  <li>Field should be necessarily be scouted during the vulnerable crop growth stages for early detection of dead hearts and white ear.</li>
+  <li>Grow resistant varieties like Ratna, TKM 6, IR 20 , IR 40, IR 56, ADT 47, ADT 48, ASD 20, IR 36, ADT 44, PY 4, ADT 46, Madhu, Kanchana, Swarnapraba, karthika, Deepthi and Tellahamsa.</li>
+  <li>Removal and proper disposal of stubbles will keep the borer population low in next crop.</li>
+  <li>Clip the tip of the seedlings before transplanting to eliminate egg masses.</li>
+  <li>Collect and destroy the egg masses.</li>
+  <li>Avoid close planting and continuous water stagnation at early stages.</li>
+  <li>Pull out and destroy the affected tillers.</li>
+  <li>Harvest the crop up to the ground level and disturb the stubbles with plough immediately after the harvest to keep the borer population low in next crop.</li>
+</ul>
+
+<h5>Chemical methods</h5>
+<ul>
+  <li>ETL : 2 egg masses/m2 (or) 10% dead heart at vegetative stage (or) 2% White ear at Flowering stage.</li>
+  <li>When natural enemies of stem borers are present, application of chemical measures can be delayed or dispensed with.</li>
+  <li>The newly hatched borer larvae must be flit with 2 rounds of quinalphos or phosphomidon at 1000ml/ha at 7 days interval.</li>
+  <li>Spray any one of the following based on ETLs :
+    Quinalphos 25 EC 1000 ml/ha (or) Phosphamidon 40 SL 600 ml/ha (or) Profenophos 50 EC 1000 ml/ha.</li>
+</ul>
+
+<h5>Biological methods</h5>
+<ul>
+  <li>Apply Bacillus thuringiensis var kurstaki at 2.5 kg/ha to reduce the oviposition by the stem borer.</li>
+  <li>Release of egg parasitoid Trichogramma japonicum thrice at weekly interval starting 28 days after transplanting @ 5 cc (1 lakh egg parasitoids)/ha/release. followed by the release of Trichogramma japonicum at 35 and 42 DAT.</li>
+<li>Avoid spraying of chemicals on three days before and upto to seven days after field release of egg cards.</li>
+<li>Release the egg cards in field during morning hours. Tie the egg cards under the leaf surface facing outside.</li>
+</ul>
+
+
+</div> 
+</body>
+</html>
