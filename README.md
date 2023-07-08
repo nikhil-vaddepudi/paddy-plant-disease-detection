@@ -52,14 +52,30 @@ These are from the Kaggle  link:https://www.kaggle.com/competitions/paddy-diseas
   </tr>
 </table>
 
-## Image Segmentation
-It employs to reduce image’s complexity and simplify it.
 
-A K-means clustering technique has been engaged in this. K means clustering partitions or makes the clusters of the data which is nearest to the centroid. Centroid is arithmetic mean of the all cluster points. The new centroid is estimated for each of the partition or cluster, after allocating the nearest centroid. The position and number of the centroid is changed step by step till k-clusters are derived and no more changes are possible.
+## Image Pre-processing 
+### Image resizing
+In pre-processing, the image size is increased. The reason is that reducing the size of the image removes high-frequency information. The more of it size remove, the less specific the representation becomes. Everyone would expect that decreasing image size would decrease false negatives and increase false positives, but again, that depends on what kind of categories that are trying to classify. For any particular problem, there is probably a “sweet spot”, an image size that yields the maximum accuracy. For the data set that we considered, the image was resized to 640 x 480 from 480 x 480.
 
-The crucial part of this technique is selecting the K values. The values will be taken by using trial and error method.
+### Splitting dataset
+ To train a deep learning model. We need to have a training set and a validation set. For verification, we need to have a testing set too.
+ The data set,consisting of 10407 images, is divided into three categories:
+<ul>
+  <li> Training set with 7280 images (70%). </li>
+  <li> Validation set with 1036 images (10%).</li>
+  <li> Testing set with 2091 images (20%).</li>
+</ul>
 
 ## Classification of Images
 
-We didi it by using CNN, VGG-19, Inception v3 and compared with each other
+We used 6 pretrained models with additional layers (transfer learning) and compared the results between them.
+The pretrained models that used are:
+<ol>
+  <li> ResNet101 v2</li>
+  <li> Inception v3</li>
+  <li> Inception - ResNet v2</li>
+  <li> DenseNet201 </li>
+  <li> MobileNet v2</li>
+  <li> Xception </li>
+  </ol>
 
