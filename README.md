@@ -69,6 +69,11 @@ In pre-processing, the image size is increased. The reason is that reducing the 
 ## Classification of Images
 
 We used 6 pretrained models with additional layers (transfer learning) and compared the results between them.
+##### What is a Pre-trained Model?
+A pre-trained model has been previously trained on a dataset and contains the weights and biases that represent the features of whichever dataset it was trained on. Learned features are often transferable to different data. For example, a model trained on a large dataset of bird images will contain learned features like edges or horizontal lines that you would be transferable your dataset.
+##### Why use a Pre-trained Model?
+Pre-trained models are beneficial to us for many reasons. By using a pre-trained model you are saving time. Someone else has already spent the time and compute resources to learn a lot of features and your model will likely benefit from it.
+
 The pretrained models that used are:
 <ol>
   <li> ResNet101 v2</li>
