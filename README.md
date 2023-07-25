@@ -77,5 +77,9 @@ The pretrained models that used are:
   <li> DenseNet201 </li>
   <li> MobileNet v2</li>
   <li> Xception </li>
-  </ol>
+</ol>
+
+#### ResNet101 v2
+
+
 
